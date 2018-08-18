@@ -15,12 +15,11 @@ $sec-color:#2f3542;
 
 body{
     font-family: 'Source Sans Pro',verdana, sans-serif;
-    color: rgb(35, 35, 35);
+    color:rgba(0,0,0,.8);
 }
 
-a:hover{
-    color:#F7CA18;
-    transition:.4s;
+a{
+    text-decoration:none;
 }
 
 // #################### Classes ####################
@@ -96,33 +95,50 @@ a:hover{
     border-radius:2px;
 }
 
+.icon{
+    font-size:80px;
+    background: linear-gradient(45deg, #ffa0a4, #a38dfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-hover:hover{
+    transition:.3s;
+    opacity:.8;
+    cursor:pointer;
+}
+
+.color-title{
+    color: #ffa0a4;
+    font-size:24px;
+}
+
 .card{
     padding-bottom:30px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    .card__icon,.card__title,.card__text{
+    .icon,.color-title,.card__text{
         padding-bottom:10px;
     }
-    .card__icon{
-        font-size:80px;
-        background: linear-gradient(45deg, #ffa0a4, #a38dfd);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
 
-    }
-
-    .card__title{
-        color: #ffa0a4;
-        font-size:24px;
-    }
 }
 
 .section-title{
     padding:40px 0;
     text-align:center;
     font-size: 40px;
+}
+
+.section{
+    margin:20px 0;
+}
+
+.website-title{
+    margin:0;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
 }
 
 // #################### Nav ####################
@@ -133,6 +149,7 @@ a:hover{
     left:0;
     width: 100%;
     z-index:2;
+    background:#232323;
     .nav__items{
         display: flex;
         justify-content: center;
@@ -142,18 +159,17 @@ a:hover{
         a{
             text-decoration:none;
             color:white;
-            font-family: 'Pacifico', cursive;
         }
 
         a:hover{
             opacity:.6;
         }
-        li{
-            margin:0 15px;
+        li,h1{
+            padding:0 15px;
         }
+        
         h1{
-            margin:0;
-            text-align: center;
+            font-size:18px;
         }
     } 
 }
@@ -168,6 +184,7 @@ a:hover{
     overflow: hidden;
     z-index:1;
     padding-top:100px;
+    height:100vh;
     .hero__overlayer{
         background: linear-gradient(135deg,#a54997 0%,#022e93 100%);
         opacity:.8;
@@ -236,5 +253,39 @@ a:hover{
             text-align: center;
             font-size: 24px;
         }
+    }
+}
+
+// #################### Contact ####################
+
+.contact{
+    .contact__icons-container{
+        display: flex;
+        justify-content: center;
+        p{
+            text-align:center;
+            font-size: 12px;
+        }
+        a{
+            color:inherit;
+        }
+        .icon{
+            margin:0 20px;
+        }
+    }
+}
+
+// #################### Footer ####################
+
+.footer{
+    text-align: center;
+    background:#232323;
+    color:white;
+    padding:40px 0;
+    .website-title,.footer__copy{
+        margin-bottom:20px;
+    }
+    .icon{
+        font-size:24px;
     }
 }

@@ -18,7 +18,7 @@
                 <li>
                     <a href="porfolio.html" href="#">Portfolio</a>
                 </li>
-                <h1 href="#"><a href="index.html">Rodrigo Queiroz</a></h1>
+                <h1 class="website-title" href="#"><a href="index.html">Rodrigo Queiroz</a></h1>
                 <li>
                     <a href="sobre.html" href="#">About</a>
                 </li>
@@ -26,43 +26,43 @@
         </nav>
 
         <!-- ########## Hero ########## -->
-        <section class="hero">
+        <section class="hero section">
             <div class="hero__overlayer"></div>
             <div class="hero__body">
                 <div class="container">
                     <img class="hero__img img-fluid" src="img/rodrigo.jpg" alt="Rodrigo Queiroz da Chagas">
                     <h2 class="hero__title">Front end & Wordpress Theme Developer</h2>
-                    <a class="btn hvr-float-shadow">Learn More</a>
+                    <a href="#services" class="btn hvr-float-shadow">Learn More</a>
                 </div>
             </div>
         </section>
 
         <!-- ########## Services ########## -->
 
-        <section class="services">
+        <section id="services" class="services section">
             <div class="container">
                 <h2 class="section-title">My services</h2>
                 <div class="row">
                     <div class="col-sm-6 col-md-4">
                         <div class="card">
-                            <i class="card__icon fas fa-desktop"></i>
-                            <h3 class="card__title">Front end</h3>
+                            <i class="icon fas fa-desktop"></i>
+                            <h3 class="color-title">Front end</h3>
                             <p class="card__text">HTML,CSS,Javascript</p>
                         </div>
                         <hr class="d-sm-none">
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="card">
-                            <i class="card__icon fas fa-database"></i>
-                            <h3 class="card__title">Back end</h3>
+                            <i class="icon fas fa-database"></i>
+                            <h3 class="color-title">Back end</h3>
                             <p class="card__text">Node.js</p>
                         </div>
                         <hr class="d-sm-none">
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <div class="card">
-                            <i class="card__icon fab fa-wordpress"></i>
-                            <h3 class="card__title">Wordpress</h3>
+                            <i class="icon fab fa-wordpress"></i>
+                            <h3 class="color-title">Wordpress</h3>
                             <p class="card__text">The most popular CMS</p>
                         </div>
                         <hr class="d-sm-none">
@@ -73,7 +73,7 @@
 
         <!-- ########## Portfolio ########## -->
 
-        <section class="portfolio">
+        <section class="portfolio section">
             <div class="container">
                 <h2 class="section-title">My Last Works</h2>
                 <div class="row">
@@ -87,7 +87,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="col-md-6">
                         <img class="portfolio__img img-fluid" src="img/rodrigo.jpg" alt="Work">
@@ -102,7 +102,50 @@
             </div>
         </section>
 
+        <!-- ########## Contact ########## -->
+
+        <section class="contact section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__icons-container">
+                    <div>
+                        <a class="icon-hover" href="mailto:rodrigo.queiroz.chagas@gmail.com?Subject=Hello%20again">
+                            <i class="icon fas fa-envelope"></i>
+                        </a>
+                        <p>rodrigo.queiroz.chagas<br>@gmail.com</p>
+
+                    </div>
+                    <div>
+                        <a class="icon-hover" href="tel:+5561992191727">
+                            <i class="icon fab fa-whatsapp"></i>
+                        </a>
+                        <p>+55(61)992191727</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ########## Footer ########## -->
+
+        <footer class="footer">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2 class="website-title">Rodrigo Queiroz</h2>
+                </div>
+                <div class="col-sm-4">
+                    <p class="footer__copy">&copy; All Rights Reserveds</p>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.facebook.com/rodrigo.queiroz.1481169" target="_blank"><i class="icon icon-hover fab fa-facebook-square"></i></a>
+                    <a href="https://github.com/RodrigoWebDev" target="_blank"><i class="icon icon-hover fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-queiroz-306a6811a/" target="_blank"><i class="icon icon-hover fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+
         <script src="js/jquery.min.js"></script>
+        <script src="js/smooth-scroll.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
