@@ -227,6 +227,7 @@ a{
 // #################### Services ####################
 
 .services{
+    padding-top: 100px;
     hr{
         border-top:rgba(0,0,0,.7);
         margin-bottom: 30px;
@@ -259,6 +260,7 @@ a{
 // #################### Contact ####################
 
 .contact{
+    padding-bottom:50px;
     .contact__icons-container{
         display: flex;
         justify-content: center;
