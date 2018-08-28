@@ -20,9 +20,12 @@
     }
 }
 
-.portfolio{
+.portfolio--home{
     background:url(../img/port-bg.jpg) no-repeat;
     background-size:cover;
+}
+
+.portfolio{
     position: relative;
     overflow: hidden;
     z-index:1;

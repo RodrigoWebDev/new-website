@@ -98,16 +98,25 @@
 }
 
 .btn{
-    background: rgba(254,140,0,.1);
-    border: 1px solid #fe8c00;
+    color:white;
     padding:12px 30px;
     border-radius:3px;
-    color:white;
     cursor:pointer;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: lighter;
     letter-spacing: 2px;
+}
+
+.btn--transparent{
+    background: rgba(254,140,0,.1);
+    border: 1px solid #fe8c00;
+    font-weight: lighter;
+}
+
+
+.btn--orange{
+    background: linear-gradient(135deg, #fe8c00 0%, #f83600 100%);
+    font-weight: bolder;
 }
 
 .icon{
@@ -117,10 +126,6 @@
 
 .icon-hover:hover{
     @extend %opacity-hover
-}
-
-.tooltip{
-    
 }
 
 .color-title{
