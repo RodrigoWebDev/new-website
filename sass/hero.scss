@@ -1,0 +1,65 @@
+// #################### Hero ####################
+.hero--home{
+    background:url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.hero--portfolio{
+    background:url(../img/portfolio-hero.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.hero--about{
+    background:url(img/hero-bg.jpg) no-repeat;
+}
+
+.hero{
+    padding:30px;
+    position:relative;
+    overflow: hidden;
+    z-index:1;
+    padding-top:150px;
+    .hero__body{
+        z-index:1;
+        i{
+            margin-right: 7px;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .hero__img,.hero__title{
+                margin-bottom: 20px;
+            }
+            .hero__img{
+                border-radius: 50%;
+                max-width:300px;
+            }
+
+            .hero__title{
+                text-align: center;
+                color:white;
+                font-weight: lighter;
+            }
+
+            .hero__title--big{
+                font-size: 50px;
+                font-weight: normal;
+            }
+
+            .hero__subtitle{
+                color: white;
+                font-weight: normal;
+                margin-bottom: 40px;
+            }
+
+            .btn:hover{
+                color:white !important;
+            }
+        }
+    }
+}

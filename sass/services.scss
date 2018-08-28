@@ -1,0 +1,14 @@
+// #################### Services ####################
+
+.services{
+    padding-top: 100px;
+    hr{
+        border-top:rgba(0,0,0,.7);
+        margin-bottom: 30px;
+    }
+    
+    .icon-container:hover{
+        @extend %opacity-hover;
+        opacity: .8;
+    }
+}
