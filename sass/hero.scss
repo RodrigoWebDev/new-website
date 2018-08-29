@@ -5,7 +5,7 @@
 }
 
 .hero--portfolio{
-    background:url(../img/portfolio-hero.jpg);
+    background:url(../img/port-bg.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,12 @@
 }
 
 .hero--about{
-    background:url(img/hero-bg.jpg) no-repeat;
+    background:url(../img/about-hero-bg.jpeg) no-repeat;
+    height: auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero{
@@ -32,12 +37,8 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            .hero__img,.hero__title{
+            .hero__title{
                 margin-bottom: 20px;
-            }
-            .hero__img{
-                border-radius: 50%;
-                max-width:300px;
             }
 
             .hero__title{
@@ -55,6 +56,7 @@
                 color: white;
                 font-weight: normal;
                 margin-bottom: 40px;
+                text-align: center;
             }
 
             .btn:hover{
