@@ -103,7 +103,7 @@
 }
 
 .accordion{
-    color: #fe8c00;
+    color: $text-color2;
     width: 100%;
     .accordion__title{
         text-align: center;
@@ -147,8 +147,8 @@
 }
 
 .btn--transparent{
-    background: rgba(254,140,0,.1);
-    border: 1px solid #fe8c00;
+    background: rgba(103,171,148,.1);
+    border: 1px solid $text-color2;
     font-weight: lighter;
 }
 

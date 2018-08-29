@@ -15,7 +15,7 @@
 
     .skills__name{
         margin-bottom: 30px;
-        color: #fe8c00
+        color: $text-color2;
     }
     img{
         width: 64px;
@@ -23,7 +23,6 @@
     }
     hr{
         margin: 50px 0;
-        border-color: #fe8c00;
-        border: 1px solid #fe8c00;
+        border: 1px solid $text-color2;
     }
 }
