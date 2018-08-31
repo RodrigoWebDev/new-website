@@ -1,15 +1,12 @@
 // #################### main ####################
 
-@font-face{
-    font-family: pixel;
-    src:url(../fonts/pixelart.ttf);
-}
-
 $text-color:rgba(0,0,0,.8);
-$text-color2:#67AB94;
+$text-color2:#33A2A0;
 $bg-gradient: linear-gradient(135deg,#000000 0%,#434343 100%);
-$gradient: linear-gradient(135deg,#73C8A9 0%,#373B44 100%);
+$gradient: linear-gradient(135deg,#43cea2 0%,#185a9d 100%);
+
 $bg-color: #232323;
+
 
 %gradient-color{
     background: $gradient;
