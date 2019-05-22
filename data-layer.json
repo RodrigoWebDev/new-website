@@ -3,7 +3,16 @@
         {
             nome: "Biotwo",
             thumb: "",
-            url:""
-        }
+            url:"https://www.biotwo.com.br/",
+            desc: "E-commerce desenvolvido com a Tray corp",
+            type: "ecommerce"
+        },
+        {
+            nome: "Biotwo",
+            thumb: "",
+            url:"https://www.biotwo.com.br/",
+            desc: "E-commerce desenvolvido com a Tray corp",
+            type: "ecommerce"
+        },
     ]
 }
