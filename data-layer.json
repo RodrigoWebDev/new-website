@@ -8,11 +8,11 @@
             type: "ecommerce"
         },
         {
-            nome: "Biotwo",
+            nome: "Brascol - Produtos Sortidos",
             thumb: "",
-            url:"https://www.biotwo.com.br/",
-            desc: "E-commerce desenvolvido com a Tray corp",
-            type: "ecommerce"
+            url:"https://www.brascol.com.br/produtos-sortidos",
+            desc: "Landing Page desnvolvida dentro da plataforma Linx",
+            type: "landingpage"
         },
     ]
 }
