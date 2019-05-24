@@ -1,5 +1,5 @@
 .header{
-    background: var(--color1);
+    background-color: rgba(10,10,10, .95);
     position:fixed;
     top:0;
     left:0;
@@ -8,6 +8,7 @@
     height:70px;
     display: flex;
     align-items: center;
+    z-index:1;
 }
 
 .header > .container{
@@ -34,13 +35,13 @@
 }
 
 .header__nav-list > li a{
-    color: white;
+    color: rgba(255,255,255, .7);
     text-decoration: none;
 }
 
 .header__nav-list > li a:hover{
     transition: .2s;
-    opacity:.7;
+    color:white;
 }
 
 .header__siteName{

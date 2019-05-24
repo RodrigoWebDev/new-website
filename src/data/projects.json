@@ -1,0 +1,128 @@
+[
+    {
+        "nome": "Biotwo",
+        "thumb": "../img/portfolio/biotwo.jpg",
+        "url":"https://www.biotwo.com.br/",
+        "type": "ecommerce"
+    },
+    {
+        "nome": "Alcacuz - Quem somos",
+        "thumb": "../img/portfolio/alcacuz-quem-somos.jpg",
+        "url":"https://www.alcacuz.com.br/sobre-a-marca-8/v",
+        "type": "landingpage"
+    },
+    {
+        "nome": "Wine",
+        "thumb": "../img/portfolio/wine.jpg",
+        "url":"https://www.wine.com.br/",
+        "type": "ecommerce"
+    },
+    {
+        "nome": "Deputado Hugo Leal - Petrópolis",
+        "thumb": "../img/portfolio/petropolis.jpg",
+        "url":"http://www.deputadohugoleal.com.br/petropolis/",
+        "type": "landingpage"
+    },
+    {
+        "nome": "Hightone",
+        "thumb": "../img/portfolio/hightone.jpg",
+        "url":"https://hightone.com",
+        "type": "ecommerce"
+    },
+    {
+        "nome": "Burn Studio",
+        "thumb": "../img/portfolio/burn-studio.jpg",
+        "url":"https://rodrigowebdev.github.io/burn-studio/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Shark Tank Hub",
+        "thumb": "../img/portfolio/shark-tank-hub.jpg",
+        "url":"https://www.sharktankhub.com/",
+        "type": "blog"
+    },
+    {
+        "nome": "Merlin's Potions",
+        "thumb": "../img/portfolio/merlin.jpg",
+        "url":"https://rodrigowebdev.github.io/enext-teste/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Markai",
+        "thumb": "../img/portfolio/burn-studio.jpg",
+        "url":"http://markai.com.br/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Visual Art Studio",
+        "thumb": "../img/portfolio/visual-art-studio.jpg",
+        "url":"https://rodrigowebdev.github.io/visual-art-webpage/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Periphery band",
+        "thumb": "../img/portfolio/periphery.jpg",
+        "url":"https://rodrigowebdev.github.io/periphery-band/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Half Template",
+        "thumb": "../img/portfolio/half-template.jpg",
+        "url":"https://rodrigowebdev.github.io/half-template/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Max Festa",
+        "thumb": "../img/portfolio/max-festa.jpg",
+        "url":"https://rodrigowebdev.github.io/max-festa/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Select Game",
+        "thumb": "../img/portfolio/select-game.jpg",
+        "url":"https://rodrigowebdev.github.io/select-game/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Recriando raízes",
+        "thumb": "../img/portfolio/recriando-raizes.jpg",
+        "url":"http://www.recriandoraizes.org.br/",
+        "type": "institucional"
+    },
+    {
+        "nome": "The Digital Nomad",
+        "thumb": "../img/portfolio/digital-nomad.jpg",
+        "url":"https://rodrigowebdev.github.io/landing-page/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Blog recriando raízes",
+        "thumb": "../img/portfolio/blog-recriando-raizes.jpg",
+        "url":"http://noticiasrr.epizy.com/?i=1",
+        "type": "blog"
+    },
+    {
+        "nome": "Mobile app interface",
+        "thumb": "../img/portfolio/mobile-interface.jpg",
+        "url":"https://rodrigowebdev.github.io/mobile-blog-app-interface/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Restaurante app Web based",
+        "thumb": "../img/portfolio/confirm-reservation.jpg",
+        "url":"https://rodrigowebdev.github.io/confirm-reservation/",
+        "type": "institucional"
+    },
+    {
+        "nome": "To do list",
+        "thumb": "../img/portfolio/to-do-list.png",
+        "url":"https://rodrigowebdev.github.io/to-do-list/",
+        "type": "institucional"
+    },
+    {
+        "nome": "Pac Man Tribute Page",
+        "thumb": "../img/portfolio/pac-man.jpg",
+        "url":"https://rodrigowebdev.github.io/tribute-page/",
+        "type": "institucional"
+    }
+]
