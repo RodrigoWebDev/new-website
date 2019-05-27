@@ -18,6 +18,12 @@
         "type": "ecommerce"
     },
     {
+        "nome": "You Go Girls",
+        "thumb": "../img/portfolio/yougogirls.jpg",
+        "url":"https://yougogirls.com.br/",
+        "type": "blog"
+    },
+    {
         "nome": "Deputado Hugo Leal - Petrópolis",
         "thumb": "../img/portfolio/petropolis.jpg",
         "url":"http://www.deputadohugoleal.com.br/petropolis/",
