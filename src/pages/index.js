@@ -12,7 +12,7 @@ export default ({data}) => {
             <div className="portfolio container">
                 {data.allProjectsJson.edges.map(project =>(
                     <div className="portfolio-card hvr-bob">
-                        <a target="_blank" href={project.node.url}>
+                        <a target="_blank" rel="noopener noreferrer" href={project.node.url}>
                             <Img fluid={project.node.thumb.childImageSharp.fluid} className="portfolio-card__img"/>
                         </a>
                         <h3 className="portfolio-card__name">{project.node.nome}</h3>

@@ -7,7 +7,7 @@ export default() => (
     <header className="header">
         <div className="container">
         <div className="logo-container">
-            <Link to="/"><img className="logo" src={Logo}/></Link>
+            <Link to="/"><img className="logo" src={Logo} alt="Logo"/></Link>
         </div>
         <h1 className="header__siteName">RQueiroz</h1>
         <nav class="header__nav">
