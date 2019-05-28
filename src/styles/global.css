@@ -458,9 +458,8 @@
 /* Vars
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 :root{
-    --color1:#191919;
-    --color2:#222831;
-    --color3: white;
+    --color1:rgba(0,0,0,.8);
+    --color3: rgba(255,255,255,.9);;
     --color4:#999;
     --color5:grey;
 }
@@ -806,5 +805,6 @@
 
   /* Main */
   .main {
-    margin-top: 70px;
+    padding-top: 100px;
+    background:url(../img/bg-portfolio.jpg);
   }

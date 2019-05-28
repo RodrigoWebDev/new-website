@@ -7,26 +7,26 @@
     margin: 40px 0;
     display:flex;
     flex-wrap:wrap;
-}
-
-.portfolio-card__img{
-    border-radius: .25rem;
+    flex-basis: 100%;
 }
 
 .portfolio-card__name {
-    margin-top: 10px;
-    margin-bottom: 0;
     font-weight:900;
     text-align: center;
+    width: 100%;
+    background:rgba(255,255,255,.9);
+    padding: 10px 0;
+    font-size:16px;
+}
+
+.portfolio-card a{
+    display:block;
+    width:100%;
 }
 
 @media (min-width:700px){
     .portfolio-card{
         justify-content: space-between;
-    }
-
-    .portfolio-card__name{
-        font-size:25px;
     }
 
     .portfolio-card{
