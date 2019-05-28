@@ -1,14 +1,14 @@
 [
     {
-        "nome": "Biotwo",
-        "thumb": "../img/portfolio/biotwo.jpg",
-        "url":"https://www.biotwo.com.br/",
-        "type": "ecommerce"
-    },
-    {
         "nome": "Loja Artcoco",
         "thumb": "../img/portfolio/artcoco.jpg",
         "url":"https://www.artcocojoias.com.br",
+        "type": "ecommerce"
+    },
+    {
+        "nome": "Biotwo",
+        "thumb": "../img/portfolio/biotwo.jpg",
+        "url":"https://www.biotwo.com.br/",
         "type": "ecommerce"
     },
     {
@@ -182,6 +182,12 @@
         "type": "institucional"
     },
     {
+        "nome": "Password Strength with jQuery",
+        "thumb": "../img/portfolio/passowrd-strength.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/QBvGPR",
+        "type": "webapp"
+    },
+    {
         "nome": "Recriando raízes",
         "thumb": "../img/portfolio/recriando-raizes.jpg",
         "url":"http://www.recriandoraizes.org.br/",
@@ -200,6 +206,38 @@
         "type": "blog"
     },
     {
+        "nome": "Calculate your BMI Jquery",
+        "thumb": "../img/portfolio/bmi.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/EpZXdO",
+        "type": "webapp"
+    },
+    {
+        "nome": "Javascript Bubble Game",
+        "thumb": "../img/portfolio/bubble-game.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/MBpmGY",
+        "type": "webapp"
+    },
+    {
+        "nome": "Simple Javascript Clock",
+        "thumb": "../img/portfolio/clock.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/aGexGM",
+        "type": "webapp"
+
+    },
+    {
+        "nome": "To do list with javascript",
+        "thumb": "../img/portfolio/to-do-list2.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/qYQPNe",
+        "type": "webapp"
+
+    },
+    {
+        "nome": "Simple Responsive Javascript Timer",
+        "thumb": "../img/portfolio/timer.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/ZRzbqK",
+        "type": "webapp"
+    },
+    {
         "nome": "Mobile app interface",
         "thumb": "../img/portfolio/mobile-interface.jpg",
         "url":"https://rodrigowebdev.github.io/mobile-blog-app-interface/",
@@ -215,7 +253,7 @@
         "nome": "To do list",
         "thumb": "../img/portfolio/to-do-list.png",
         "url":"https://rodrigowebdev.github.io/to-do-list/",
-        "type": "institucional"
+        "type": "webapp"
     },
     {
         "nome": "Pac Man Tribute Page",
