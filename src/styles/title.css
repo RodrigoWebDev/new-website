@@ -8,11 +8,6 @@
     border: 1px solid;
 }
 
-.container-title{
-    padding-left:4%;
-    padding-right:4%;
-}
-
 @media(min-width:700px){
     .title{
         font-size:50px;

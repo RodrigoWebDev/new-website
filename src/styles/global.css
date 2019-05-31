@@ -477,7 +477,7 @@
 .container {
     position: relative;
     width: 100%;
-    max-width: 1300px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 20px;
     box-sizing: border-box; }
@@ -508,7 +508,7 @@
     line-height: 1.6;
     font-weight: 400;
     font-family: futura, "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: var(--color1);
+    color: var(--color3);
 }
   
   
