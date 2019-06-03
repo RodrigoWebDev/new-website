@@ -238,6 +238,12 @@
 
     },
     {
+        "nome": "jQuery Lightbox",
+        "thumb": "../img/portfolio/jquery-light-box.jpg",
+        "url":"https://codepen.io/RodrigoWebDev/full/wxrYaM",
+        "type": "webapp"
+    },
+    {
         "nome": "Simple Responsive Javascript Timer",
         "thumb": "../img/portfolio/timer.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/ZRzbqK",
