@@ -10,7 +10,6 @@
     top: 50%;
 
     display: block;
-
     width: 20px;
     height: 20px;
     padding: 0;
@@ -24,6 +23,7 @@
     border: none;
     outline: none;
     background: transparent;
+    z-index: 1;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -54,8 +54,7 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
+    opacity: 1;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -63,7 +62,7 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 0;
 }
 [dir='rtl'] .slick-prev
 {
@@ -72,7 +71,7 @@
 }
 .slick-prev:before
 {
-    content: 'â†';
+    content: '\01F448';
 }
 [dir='rtl'] .slick-prev:before
 {
@@ -81,7 +80,7 @@
 
 .slick-next
 {
-    right: -25px;
+    right: 0;
 }
 [dir='rtl'] .slick-next
 {
@@ -90,7 +89,7 @@
 }
 .slick-next:before
 {
-    content: 'â†’';
+    content: '\01F449';
 }
 [dir='rtl'] .slick-next:before
 {
@@ -124,22 +123,26 @@
 
     display: inline-block;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 0 5px;
     padding: 0;
 
     cursor: pointer;
 }
+
+.slick-dots li.slick-active button{
+    opacity:.3;
+}
+
 .slick-dots li button
 {
-    font-size: 0;
     line-height: 0;
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     padding: 5px;
 
     cursor: pointer;
@@ -147,7 +150,7 @@
     color: transparent;
     border: 0;
     outline: none;
-    background: transparent;
+    background: black;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
@@ -161,18 +164,16 @@
 }
 .slick-dots li button:before
 {
-    font-family: 'slick';
-    font-size: 6px;
     line-height: 20px;
 
     position: absolute;
     top: 0;
     left: 0;
 
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
 
-    content: 'â€¢';
+    content: '';
     text-align: center;
 
     opacity: .25;
@@ -185,4 +186,12 @@
 {
     opacity: .75;
     color: black;
+}
+
+@media(min-width:600px){
+    .slick-prev,
+    .slick-next
+    {
+        color:black !important;
+    }
 }

@@ -30,12 +30,12 @@
 
 /* Services */
 
-.carousel > div{
+.carousel  .carouselCell{
     text-align:center;
     padding:0 16px;
 }
 
-.carousel > div p{
+.carousel  .carouselCell p{
     padding:0 10px;
 }
 
