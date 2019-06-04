@@ -1,13 +1,4 @@
 .footer{
-    height: 70px;
-    background: var(--color1);
-    color: var(--color3);
-    width: 100%;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
-}
-
-.footer > .container{
-    text-align: center;
+    background-color: #fafafa;
+    padding: 50px 0;
 }

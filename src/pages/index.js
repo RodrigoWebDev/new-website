@@ -1,24 +1,15 @@
 import React from "react"
 import Layout from "../components/layout"
-import Title from "../components/title"
+import Carousel from "../components/carousel/carousel"
 import { graphql } from 'gatsby';
-import Img from "gatsby-image"
-import portfolioCSS from "../styles/portfolio.css";
 
 export default ({data}) => {
     return(
         <Layout>
-            <Title>Portfólio</Title>
-            <div className="portfolio container">
-                {data.allProjectsJson.edges.map(project =>(
-                    <div className="portfolio-card hvr-bob">
-                        <a target="_blank" rel="noopener noreferrer" href={project.node.url}>
-                            <Img fluid={project.node.thumb.childImageSharp.fluid} className="portfolio-card__img"/>
-                        </a>
-                        <h3 className="portfolio-card__name">{project.node.nome}</h3>
-                    </div>
-                ))}
-            </div>
+            <section className="services">
+                <h2 className="section-title">Serviços</h2>
+                <Carousel/>
+            </section>
         </Layout>
     )
 }

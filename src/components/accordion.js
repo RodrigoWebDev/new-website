@@ -1,5 +1,4 @@
 import React from "react"
-import accordionCSS from "../styles/accordion.css"
 
 const list = [
     {
