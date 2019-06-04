@@ -4,6 +4,11 @@
 .section-title{
     text-align:center;
     font-weight: bolder;
+    border-bottom:1px solid rgba(0,0,0,.1);
+    padding-bottom: 16px;
+    width:300px;
+    margin: 0 auto;
+    margin-bottom: 16px;
 }
 
 /* Header */
@@ -28,19 +33,86 @@
     font-size:40px;
 }
 
-/* Services */
+/* Footer */
 
-.carousel  .carouselCell{
-    text-align:center;
-    padding:0 16px;
+.footer-social{
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-.carousel  .carouselCell p{
+.footer-social a{
+    margin:0 10px;
+    width: 20px;
+    margin-top: 13px;
+}
+
+/* Services */
+.carousel{
+    margin-bottom: 80px;
+}
+
+.carousel .button{
+    margin: 0 auto;
+    display: block;
+    width: 245px;
+    margin-top: 20px;
+}
+
+.carouselCell{
+    text-align:center;
+    padding:0 16px;
+    padding:30px;
+}
+
+.carouselCell a{
+    color:inherit;
+}
+
+.carouselCell p{
     padding:0 10px;
 }
 
 .carousel__icon{
     font-size:40px;
+}
+
+.carousel__title{
+    color:inherit;
+}
+
+/* Contact */
+
+.contact-inner{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    padding-bottom: 40px;
+}
+
+.contact a{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .section-title{
+    flex-basis: 100%;
+}
+
+.contact-icon{
+    display:flex;
+    align-items:center;
+}
+
+.contact a span{
+    font-size: 40px;
+}
+
+.contact-icon img {
+    width:40px;
+    margin-right:10px;
 }
 
 /* Portfolio */

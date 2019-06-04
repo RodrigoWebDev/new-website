@@ -13,7 +13,7 @@ export default ({data}) => {
                             <Img fluid={project.node.thumb.childImageSharp.fluid} className="portfolio-card__img"/>
                         </a>
                         <h3 className="portfolio-card__name">{project.node.nome}</h3>
-                        <a href={project.node.url} target="_blank" className="button dark">View</a>
+                        <a href={project.node.url} target="_blank" className="button dark">Ver</a>
                     </div>
                 ))}
             </div>

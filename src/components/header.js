@@ -3,7 +3,7 @@ import {Link} from "gatsby"
 import perfilImg from "../img/rodrigo-queiroz.jpg"
 
 export default() => (
-    <header className="header" id="top">
+    <header className="header container" id="top">
         <Link to="/">
             <img title="Clique para ir para a home" className="perfil-img" src={perfilImg}/>
             <h1 className="perfil-name">Rodrigo Queiroz</h1>

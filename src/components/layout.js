@@ -3,9 +3,9 @@ import Header from "./header"
 import Footer from "./footer"
 
 export default({children}) => (
-    <div className="container">
+    <div>
         <Header/>
-        <main className="main">
+        <main className="main container">
             {children}
         </main>
         <Footer/>
