@@ -46,6 +46,10 @@
     font-size:40px;
 }
 
+.nav .tabs > a[aria-current="page"]{
+    border-bottom: 2px solid black;
+}
+
 /* Footer */
 
 .footer-social{
