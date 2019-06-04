@@ -11,6 +11,19 @@
     margin-bottom: 16px;
 }
 
+.button-whatsapp{
+    position:fixed;
+    bottom:30px;
+    right:30px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.button-whatsapp span{
+    margin-right:5px;
+}
+
 /* Header */
 .header{
     margin-bottom:40px;
