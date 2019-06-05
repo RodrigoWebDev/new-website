@@ -5,9 +5,22 @@ import $ from "jquery"
 
 export default class Header extends React.Component { 
     componentDidMount(){
+        console.log("jQuery");
         $(".tabs > a").click(function(){
             if($(this).attr("href") === window.location.pathname){
                 this.addClass("active");
+            }
+        });
+
+        $( window ).scroll(function() {
+            if($(window).scrollTop() > 412.79998779296875){
+                $(".nav").css({
+                    "position" : "fixed",
+                });
+            }else{
+                $(".nav").css({
+                    "position" : "static",
+                });
             }
         });
     }

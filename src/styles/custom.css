@@ -50,6 +50,15 @@
     border-bottom: 2px solid black;
 }
 
+.nav{
+    width:100%;
+    background: white;
+    z-index : 2;
+    top: 0;
+    left: 0;
+    height: 47.6px;
+}
+
 /* Footer */
 
 .footer-social{

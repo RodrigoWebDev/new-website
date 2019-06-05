@@ -8,7 +8,7 @@ export default({children}) => (
         <Header/>
         <main className="main container">
             {children}
-            <a class="button success button-whatsapp"><span>Contato</span><img width="15" src={whatsapp}/> </a>
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=556192191727" target="_blank" class="button success button-whatsapp"><span>Contato</span><img width="15" src={whatsapp}/> </a>
         </main>
         <Footer/>
     </div>
