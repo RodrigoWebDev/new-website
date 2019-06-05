@@ -16,10 +16,12 @@ export default class Header extends React.Component {
             if($(window).scrollTop() > 412.79998779296875){
                 $(".nav").css({
                     "position" : "fixed",
+                    "box-shadow" : "0 10px 20px rgba(0,0,0,.1)",
                 });
             }else{
                 $(".nav").css({
                     "position" : "static",
+                    "box-shadow" : "none",
                 });
             }
         });
