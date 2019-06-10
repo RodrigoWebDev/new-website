@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Agência 2bdigital",
+        "thumb": "2bdigital.jpg",
+        "url":"https://www.agencia2bdigital.com.br/"
+    },
+    {
+        "name": "NSH Technologies",
+        "thumb": "nsh.jpg",
+        "url":"http://nsh-tech.com/"
+    },
+    {
+        "name": "Agência Double",
+        "thumb": "double.jpg",
+        "url":"https://www.linkedin.com/company/doublemarketingdigital/about/"
+    },
+    {
+        "name": "Upwork",
+        "thumb": "upwork.jpg",
+        "url":"https://www.upwork.com/"
+    }
+]

@@ -6,7 +6,7 @@ import instagram from "../img/instagram.svg"
 
 export default() => (
     <footer className="footer is-text-center">
-        <div class="container">
+        <div className="container">
             <p><a href="#top">🔝 voltar para o topo</a></p>
             Desenvolvido por mim <span>&#128102;</span>, na força do ódio! &#128127;
             <div className="footer-social">

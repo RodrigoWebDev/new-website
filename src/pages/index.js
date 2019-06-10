@@ -2,11 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import Carousel from "../components/carousel/carousel"
 import CarouselPort from "../components/carousel/carousel-port"
-import { graphql } from 'gatsby';
+//import { graphql } from 'gatsby';
 import Whatsapp from "../img/whatsapp.svg"
 import {Link} from "gatsby"
+import ProjectsJson from "../data/projects.json"
 
-export default ({data}) => {
+export default class Home extends React.Component {
+  render(){
     return(
         <Layout>
             <section className="services">
@@ -16,7 +18,7 @@ export default ({data}) => {
 
             <section className="portfolio-home">
               <h2 className="section-title">💻 Portfólio</h2>
-              <CarouselPort/>
+              <CarouselPort data={ProjectsJson}/>
             </section>
 
             <section className="contact">
@@ -28,24 +30,5 @@ export default ({data}) => {
             </section>
         </Layout>
     )
+  }
 }
-
-export const projectsQuery = graphql`
-    query {
-        allProjectsJson {
-            edges {
-              node {
-                nome
-                url
-                thumb {
-                  childImageSharp {
-                    fluid(maxWidth: 1200) {
-                        ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-              }
-            }
-          }
-    }
-`;

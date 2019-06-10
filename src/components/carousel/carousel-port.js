@@ -3,11 +3,7 @@ import slickCSS from "./slick.css"
 import slickThemeCSS from "./slick-theme.css"
 import Slider from "react-slick";
 import {Link} from "gatsby"
-
-//Deve ser removido depois
-import img1 from "../../img/portfolio/biotwo.jpg"
-import img2 from "../../img/portfolio/react-watch.jpg"
-import img3 from "../../img/portfolio/artcoco.jpg"
+import ProjectsJson from "../../data/projects.json"
 
 export default class CarouselPort extends React.Component{
     render(){
@@ -33,27 +29,23 @@ export default class CarouselPort extends React.Component{
                 }
             ]
         };
+
+
         return(
             <div className="carousel">
                 <Slider {...settings}>
-                    <div className="carouselCell">
-                        <a href="https://codepen.io/RodrigoWebDev/full/xNyMzM" target="_blank">
-                            <span className="carousel__icon"><img src={img2}/></span>
-                            <h2 className="carousel__title">React Watch App</h2>
-                        </a>
-                    </div>
-                    <div className="carouselCell">
-                        <a href="https://www.biotwo.com.br/" target="_blank">
-                            <span className="carousel__icon"><img src={img1}/></span>
-                            <h2 className="carousel__title">Biotwo</h2>
-                        </a>
-                    </div>
-                    <div className="carouselCell">
-                        <a href="https://www.artcocojoias.com.br" target="_blank">
-                            <span className="carousel__icon"><img src={img3}/></span>
-                            <h2 className="carousel__title">Loja Artcoco</h2>
-                        </a>
-                    </div>
+                    {this.props.data.map((item, index) => {
+                        if(index < 4){
+                            return(
+                                <div className="carouselCell">
+                                    <a href={item.url} target="_blank">
+                                        <span className="carousel__icon"><img src={`${require('../../img/portfolio/' + item.thumb)}`}/></span>
+                                        <h2 className="carousel__title">{item.nome}</h2>
+                                    </a>
+                                </div>
+                            )
+                        }
+                    })}
                 </Slider>
                 <Link className="button dark" to="/portfolio">👀 Ver portfólio completo</Link>
             </div>

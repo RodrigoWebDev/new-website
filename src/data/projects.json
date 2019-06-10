@@ -1,275 +1,275 @@
 [
     {
         "nome": "React Watch App",
-        "thumb": "../img/portfolio/react-watch.jpg",
+        "thumb": "react-watch.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/xNyMzM",
         "type": "webapp"
     },
     {
         "nome": "Loja Artcoco",
-        "thumb": "../img/portfolio/artcoco.jpg",
+        "thumb": "artcoco.jpg",
         "url":"https://www.artcocojoias.com.br",
         "type": "ecommerce"
     },
     {
         "nome": "Biotwo",
-        "thumb": "../img/portfolio/biotwo.jpg",
+        "thumb": "biotwo.jpg",
         "url":"https://www.biotwo.com.br/",
         "type": "ecommerce"
     },
     {
         "nome": "Lafemme Calçados",
-        "thumb": "../img/portfolio/lafemme.jpg",
+        "thumb": "lafemme.jpg",
         "url":"https://www.lafemmecalcados.com.br",
         "type": "ecommerce"
     },
     {
         "nome": "Mega Polo Sábado",
-        "thumb": "../img/portfolio/megapolo-sabado.jpg",
+        "thumb": "megapolo-sabado.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/megapolo-sabado-email/",
         "type": "landinpage"
     },
     {
         "nome": "Mega Polo - MFW26",
-        "thumb": "../img/portfolio/mfw26.jpg",
+        "thumb": "mfw26.jpg",
         "url":"https://www.megapolomoda.com.br/mfw26/",
         "url-alt": "http://rqueiroz.surge.sh/lp/mfw26-landingpage/",
         "type": "landinpage"
     },
     {
         "nome": "MPM Store Email Marketing",
-        "thumb": "../img/portfolio/mpm-store-emkt.jpg",
+        "thumb": "mpm-store-emkt.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/email-mpm-clio/",
         "type": "emkt"
     },
     {
         "nome": "Degrant Jeans - MFW26",
-        "thumb": "../img/portfolio/degrant-mfw26.jpg",
+        "thumb": "degrant-mfw26.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/dgn-mfw26-email/",
         "type": "emkt"
     },
     {
         "nome": "Interoceanica",
-        "thumb": "../img/portfolio/interoceanica-manutencao.jpg",
+        "thumb": "interoceanica-manutencao.jpg",
         "url":"http://www.interoceanica.com.br/",
         "url-alt": "http://rqueiroz.surge.sh/lp/interoceanica/",
         "type": "landinpage"
     },
     {
         "nome": "Bytebank",
-        "thumb": "../img/portfolio/bytebank.jpg",
+        "thumb": "bytebank.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/bytebank-email/",
         "type": "emkt"
     },
     {
         "nome": "Brascol - Girl Power",
-        "thumb": "../img/portfolio/brascol-girl-power.jpg",
+        "thumb": "brascol-girl-power.jpg",
         "url":"https://brascol.com.br/girl-power",
         "type": "landinpage"
     },
     {
         "nome": "Brascol - Coleção inverno 2019",
-        "thumb": "../img/portfolio/brascol-colecao-inverno.jpg",
+        "thumb": "brascol-colecao-inverno.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/brascol-inverno-email/",
         "type": "emkt"
     },
     {
         "nome": "Brascol - Expo baby lp",
-        "thumb": "../img/portfolio/brascol-expobaby-lp.jpg",
+        "thumb": "brascol-expobaby-lp.jpg",
         "url":"https://www.brascol.com.br/expo-baby",
         "type": "landingpage"
     },
     {
         "nome": "Brascol - Expo baby email",
-        "thumb": "../img/portfolio/brascol-expobaby.jpg",
+        "thumb": "brascol-expobaby.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/brascol-expobaby2-email/",
         "type": "emkt"
     },
     {
         "nome": "Alcacuz - inverno 2019",
-        "thumb": "../img/portfolio/alcacuz-inverno-2019.jpg",
+        "thumb": "alcacuz-inverno-2019.jpg",
         "url":"https://www.alcacuz.com.br/preview/pagina-inverno-2019-9/v",
         "type": "landingpage"
     },
     {
         "nome": "Brascol 15% OFF",
-        "thumb": "../img/portfolio/brascol-15off.jpg",
+        "thumb": "brascol-15off.jpg",
         "url":"http://rqueiroz.surge.sh/emkt/brascol-15off-ultima-email/",
         "type": "emkt"
     },
     {
         "nome": "Alcacuz - Quem somos",
-        "thumb": "../img/portfolio/alcacuz-quem-somos.jpg",
+        "thumb": "alcacuz-quem-somos.jpg",
         "url":"https://www.alcacuz.com.br/sobre-a-marca-8/v",
         "type": "landingpage"
     },
     {
         "nome": "Wine",
-        "thumb": "../img/portfolio/wine.jpg",
+        "thumb": "wine.jpg",
         "url":"https://www.wine.com.br/",
         "type": "ecommerce"
     },
     {
         "nome": "You Go Girls",
-        "thumb": "../img/portfolio/yougogirls.jpg",
+        "thumb": "yougogirls.jpg",
         "url":"https://yougogirls.com.br/",
         "type": "blog"
     },
     {
         "nome": "Deputado Hugo Leal - Petrópolis",
-        "thumb": "../img/portfolio/petropolis.jpg",
+        "thumb": "petropolis.jpg",
         "url":"http://www.deputadohugoleal.com.br/petropolis/",
         "type": "landingpage"
     },
     {
         "nome": "Hightone",
-        "thumb": "../img/portfolio/hightone.jpg",
+        "thumb": "hightone.jpg",
         "url":"https://hightone.com",
         "type": "ecommerce"
     },
     {
         "nome": "MPM Celebrate",
-        "thumb": "../img/portfolio/mpm-celebrate.jpg",
+        "thumb": "mpm-celebrate.jpg",
         "url":"http://rqueiroz.surge.sh/lp/mpm-celebrate-landingpage/",
         "type": "landinpage"
     },
     {
         "nome": "Burn Studio",
-        "thumb": "../img/portfolio/burn-studio.jpg",
+        "thumb": "burn-studio.jpg",
         "url":"https://rodrigowebdev.github.io/burn-studio/",
         "type": "institucional"
     },
     {
         "nome": "Shark Tank Hub",
-        "thumb": "../img/portfolio/shark-tank-hub.jpg",
+        "thumb": "shark-tank-hub.jpg",
         "url":"https://www.sharktankhub.com/",
         "type": "blog"
     },
     {
         "nome": "Merlin's Potions",
-        "thumb": "../img/portfolio/merlin.jpg",
+        "thumb": "merlin.jpg",
         "url":"https://rodrigowebdev.github.io/enext-teste/",
         "type": "institucional"
     },
     {
         "nome": "Markai",
-        "thumb": "../img/portfolio/markai.jpg",
+        "thumb": "markai.jpg",
         "url":"http://markai.com.br/",
         "type": "institucional"
     },
     {
         "nome": "Visual Art Studio",
-        "thumb": "../img/portfolio/visual-art-studio.jpg",
+        "thumb": "visual-art-studio.jpg",
         "url":"https://rodrigowebdev.github.io/visual-art-webpage/",
         "type": "institucional"
     },
     {
         "nome": "Periphery band",
-        "thumb": "../img/portfolio/periphery.jpg",
+        "thumb": "periphery.jpg",
         "url":"https://rodrigowebdev.github.io/periphery-band/",
         "type": "institucional"
     },
     {
         "nome": "Half Template",
-        "thumb": "../img/portfolio/half-template.jpg",
+        "thumb": "half-template.jpg",
         "url":"https://rodrigowebdev.github.io/half-template/",
         "type": "institucional"
     },
     {
         "nome": "Max Festa",
-        "thumb": "../img/portfolio/max-festa.jpg",
+        "thumb": "max-festa.jpg",
         "url":"https://rodrigowebdev.github.io/max-festa/",
         "type": "institucional"
     },
     {
         "nome": "Select Game",
-        "thumb": "../img/portfolio/select-game.jpg",
+        "thumb": "select-game.jpg",
         "url":"https://rodrigowebdev.github.io/select-game/",
         "type": "institucional"
     },
     {
         "nome": "Password Strength with jQuery",
-        "thumb": "../img/portfolio/passowrd-strength.jpg",
+        "thumb": "passowrd-strength.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/QBvGPR",
         "type": "webapp"
     },
     {
         "nome": "Recriando raízes",
-        "thumb": "../img/portfolio/recriando-raizes.jpg",
+        "thumb": "recriando-raizes.jpg",
         "url":"http://www.recriandoraizes.org.br/",
         "type": "institucional"
     },
     {
         "nome": "The Digital Nomad",
-        "thumb": "../img/portfolio/digital-nomad.jpg",
+        "thumb": "digital-nomad.jpg",
         "url":"https://rodrigowebdev.github.io/landing-page/",
         "type": "institucional"
     },
     {
         "nome": "Blog recriando raízes",
-        "thumb": "../img/portfolio/blog-recriando-raizes.jpg",
+        "thumb": "blog-recriando-raizes.jpg",
         "url":"http://noticiasrr.epizy.com/?i=1",
         "type": "blog"
     },
     {
         "nome": "Calculate your BMI Jquery",
-        "thumb": "../img/portfolio/bmi.jpg",
+        "thumb": "bmi.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/EpZXdO",
         "type": "webapp"
     },
     {
         "nome": "Javascript Bubble Game",
-        "thumb": "../img/portfolio/bubble-game.jpg",
+        "thumb": "bubble-game.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/MBpmGY",
         "type": "webapp"
     },
     {
         "nome": "Simple Javascript Clock",
-        "thumb": "../img/portfolio/clock.jpg",
+        "thumb": "clock.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/aGexGM",
         "type": "webapp"
 
     },
     {
         "nome": "To do list with javascript",
-        "thumb": "../img/portfolio/to-do-list2.jpg",
+        "thumb": "to-do-list2.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/qYQPNe",
         "type": "webapp"
 
     },
     {
         "nome": "jQuery Lightbox",
-        "thumb": "../img/portfolio/jquery-light-box.jpg",
+        "thumb": "jquery-light-box.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/wxrYaM",
         "type": "webapp"
     },
     {
         "nome": "Simple Responsive Javascript Timer",
-        "thumb": "../img/portfolio/timer.jpg",
+        "thumb": "timer.jpg",
         "url":"https://codepen.io/RodrigoWebDev/full/ZRzbqK",
         "type": "webapp"
     },
     {
         "nome": "Mobile app interface",
-        "thumb": "../img/portfolio/mobile-interface.jpg",
+        "thumb": "mobile-interface.jpg",
         "url":"https://rodrigowebdev.github.io/mobile-blog-app-interface/",
         "type": "institucional"
     },
     {
         "nome": "Restaurante app Web based",
-        "thumb": "../img/portfolio/confirm-reservation.jpg",
+        "thumb": "confirm-reservation.jpg",
         "url":"https://rodrigowebdev.github.io/confirm-reservation/",
         "type": "institucional"
     },
     {
         "nome": "To do list",
-        "thumb": "../img/portfolio/to-do-list.png",
+        "thumb": "to-do-list.png",
         "url":"https://rodrigowebdev.github.io/to-do-list/",
         "type": "webapp"
     },
     {
         "nome": "Pac Man Tribute Page",
-        "thumb": "../img/portfolio/pac-man.jpg",
+        "thumb": "pac-man.jpg",
         "url":"https://rodrigowebdev.github.io/tribute-page/",
         "type": "institucional"
     }
